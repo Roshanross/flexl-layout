@@ -1,0 +1,46 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+background-color: rgb(134, 123, 123);
+text-align: center;
+padding: 50px;
+font-size: 30px;
+}
+
+.clearfix::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 15px 15px;
+
+}
+.flex-container>div{
+    background-color: thistle;
+    width:32%;
+    height:400px;
+    margin:5px 5px;
+text-align: center;
+padding:10%;
+
+}
+
+.footer{
+    text-align: center;
+    background-color: turquoise;
+
+    padding:30px;
+}
