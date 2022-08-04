@@ -10,37 +10,25 @@ body{
 .header{
 background-color: rgb(134, 123, 123);
 text-align: center;
-padding: 50px;
+padding: 20px 20px;
 font-size: 30px;
-}
-
-.clearfix::after{
-    clear: both;
-    content: "";
-    display: table;
 }
 
 .flex-container{
     display: flex;
-    justify-content: center;
-    flex-direction: row;
     flex-wrap: wrap;
-    margin: 15px 15px;
 
 }
-.flex-container>div{
-    background-color: thistle;
-    width:32%;
-    height:400px;
-    margin:5px 5px;
-text-align: center;
-padding:10%;
-
+.flex-container>div {
+    background-color: #f1f1f1;
+    padding: 160px 10px;
+    flex: auto;
+    margin: 10px;
+    text-align: center;
 }
 
 .footer{
     text-align: center;
     background-color: turquoise;
-
-    padding:30px;
+    padding:20px 20px;
 }
